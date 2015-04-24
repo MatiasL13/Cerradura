@@ -2,7 +2,8 @@ package ar.edu.tallerWeb.Cerradura;
 
 public class Cerradura {
 	int clave;
-	//boolean abierto = true;
+	boolean abierto = false;
+	boolean cerrado = true;
 	public Cerradura(int clave)
 	{
 		this.clave = clave;
@@ -17,7 +18,7 @@ public class Cerradura {
 		  
 	  }
 	  boolean estaCerrada() {
-		  
+		  this.cerrado = true
 	  }
 	  boolean fueBloqueada(){
 		  
